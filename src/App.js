@@ -5,11 +5,17 @@ import SocialLinks from "./components/SocialLinks";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import { Helmet } from 'react-helmet';
 
 
 function App() {
+  const TITLE = 'Ouzzat Younes | Web Developer';
+
   return (
     <div>
+        <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
         <NavBar />
         <Home />
         <About />

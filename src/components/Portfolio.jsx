@@ -1,7 +1,10 @@
 import React from "react";
 import arraid from "../assets/portfolio/arraid.png";
 import gestionautoecole from "../assets/portfolio/gestionautoecole.png";
+import codeecole from "../assets/portfolio/codeecole.png";
 import oyamacar from "../assets/portfolio/oyamacar.png";
+import esav from "../assets/portfolio/esav.png";
+import shop from "../assets/portfolio/shop.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,9 +22,27 @@ const Portfolio = () => {
     },
     {
         id: 3,
+        src: codeecole,
+        title:"Code Ecole",
+        href:'http://ecolecode.yancom-creation.com/'
+    },
+    {
+        id: 4,
         src: oyamacar,
         title:"Oyama Car",
         href:'https://www.oyamacars.com/'
+    },
+    {
+        id: 5,
+        src: shop,
+        title:"Shop Management",
+        href:'http://shop.yancom-creation.com/dashboard'
+    },
+    {
+        id: 6,
+        src: esav,
+        title:"Esav",
+        href:'http://esav-marrakech.com/ESAVP/'
     },
 ];
 
