@@ -27,20 +27,20 @@ const Experience = () => {
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
-    {
+/*     {
       id: 4,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
-    },
+    }, */
     {
-      id: 6,
+      id: 4,
       src: laravel,
       title: "Laravel",
       style: "shadow-orange-400",
     },
     {
-      id: 7,
+      id: 5,
       src: node,
       title: "Node",
       style: "shadow-green-400",
