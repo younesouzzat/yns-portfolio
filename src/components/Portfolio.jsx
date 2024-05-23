@@ -6,7 +6,8 @@ import rgpub from "../assets/portfolio/rgp.png";
 import gestionautoecole from "../assets/portfolio/gestionautoecole.png";
 import codeecole from "../assets/portfolio/codeecole.png";
 import oyamacar from "../assets/portfolio/oyamacar.png";
-import laravelvue from "../assets/portfolio/laravelvue.png";
+import bigstore from "../assets/portfolio/bigstore.png";
+import ellamarket from "../assets/portfolio/ellamarket.png";
 import shop from "../assets/portfolio/shop.png";
 
 const Portfolio = () => {
@@ -19,48 +20,54 @@ const Portfolio = () => {
     },
     {
         id: 2,
-        src: laravelvue,
+        src: bigstore,
         title:"Ecommerce (Laravel + Vue)",
         href:'https://ecommerce-web-app-a0346.web.app/'
     },
     {
         id: 3,
+        src: ellamarket,
+        title:"Ellamarket (Laravel + Vue)",
+        href:'https://ellamarket-web-app.web.app/'
+    },
+    {
+        id: 4,
         src: cartonazilal,
         title:"Carton Azilal (Laravel + Jquery)",
         href:'https://cartonazilal.com/'
     },
     {
-        id: 4,
+        id: 5,
         src: mremballage,
         title:"Mr Emballage (Laravel + Jquery)",
         href:'http://mr.yancom-creation.com/'
     },
     {
-        id: 5,
+        id: 6,
         src: rgpub,
         title:"Rgpub (Laravel + Jquery)",
         href:'http://rgp.yancom-creation.com/'
     },
     {
-        id: 6,
+        id: 7,
         src: gestionautoecole,
         title:"Gestion Auto Ecole (Laravel + Jquery)",
         href:'https://gestionautoecole.com'
     },
     {
-        id: 7,
+        id: 8,
         src: codeecole,
         title:"Code Ecole (Laravel + Jquery)",
         href:'http://ecolecode.yancom-creation.com/'
     },
     {
-        id: 8,
+        id: 9,
         src: oyamacar,
         title:"Oyama Car (Laravel + Jquery)",
         href:'https://www.oyamacars.com/'
     },
     {
-        id: 9,
+        id: 10,
         src: shop,
         title:"Shop Management (Laravel + Jquery)",
         href:'http://shop.yancom-creation.com/dashboard'
